@@ -1,0 +1,3 @@
+# [submodule "kite"]
+	# path = packages/kite
+	# url = https://github.com/yonsei-icsl/kite
