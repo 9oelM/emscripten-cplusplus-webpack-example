@@ -1,0 +1,9 @@
+FROM emscripten/emsdk:latest
+
+WORKDIR /etc/sample-wasm
+
+RUN ls -la
+
+RUN which em++
+
+ENTRYPOINT ["./compile.sh"]
