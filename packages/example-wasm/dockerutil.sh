@@ -8,7 +8,7 @@ while getopts c: flag; do
             ;;
 
         run)
-            docker run -v $(pwd):/etc/example-wasm example-wasm
+            docker run --rm -v $(pwd):/etc/example-wasm example-wasm 
             ;;
 
         *)
