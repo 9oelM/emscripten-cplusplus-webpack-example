@@ -1,5 +1,9 @@
 # emscripten-cplusplus-webpack-example
 
+# Demo
+
+https://9oelm.github.io/emscripten-cplusplus-webpack-example/
+
 ## Rationale
 Ok. Why this repo? **_Using Emscripten on C++ to use WASM binary with Webpack + Typescript + React will NOT just work and things about this are very poorly documented sparsely across the web._** 
 
