@@ -11,7 +11,8 @@
     "dev": "webpack serve --config ./webpack/webpack.config.dev.ts --mode development",
     "prod": "webpack --config ./webpack/webpack.config.prod.ts --mode production",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "7.16.7",
@@ -38,6 +39,7 @@
     "exports-loader": "^3.1.0",
     "file-loader": "^6.2.0",
     "fork-ts-checker-webpack-plugin": "6.5.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "5.5.0",
     "jest": "27.4.7",
     "ts-jest": "27.1.2",
@@ -50,10 +52,10 @@
     "webpack-dev-server": "4.7.2"
   },
   "dependencies": {
+    "@emscripten-cplusplus-webpack-example/example-wasm": "*",
     "axios": "^0.24.0",
     "lodash.flow": "^3.5.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "@emscripten-cplusplus-webpack-example/example-wasm": "*"
+    "react-dom": "^17.0.2"
   }
 }

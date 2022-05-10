@@ -40,13 +40,19 @@ export const ExamplePure: FC<ExamplePureProps> = enhance<ExamplePureProps>(
         Step-by-step guide on compiling C++ codes with Emscripten into wasm and
         using it with Webpack + Typescript + React setup
       </h1>
+      <h2>
+        Instructions at{` `}
+        <a href="https://github.com/9oelM/emscripten-cplusplus-webpack-example">
+          https://github.com/9oelM/emscripten-cplusplus-webpack-example
+        </a>
+      </h2>
       {(() => {
         switch (fibResult) {
           case null: {
             return <p>fib(20): loading</p>
           }
           default: {
-            return <p>fib(20): {fibResult}</p>
+            return <p>fib(20): {fibResult}. it works!!</p>
           }
         }
       })()}
