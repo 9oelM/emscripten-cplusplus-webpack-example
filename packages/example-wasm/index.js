@@ -1,7 +1,6 @@
 import { fib } from "./fib.js"
 import fibonacciModule from "./fib.wasm"
 
-// storing it on TestLib module
 // Since webpack will change the name and potentially the path of the
 // `.wasm` file, we have to provide a `locateFile()` hook to redirect
 // to the appropriate URL.

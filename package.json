@@ -11,6 +11,12 @@
       "packages/*"
     ]
   },
+  "keywords": [
+    "emscripten",
+    "cplusplus",
+    "webpack",
+    "monorepo"
+  ],
   "scripts": {
     "lint": "eslint .",
     "lint:debug": "eslint . --debug",
