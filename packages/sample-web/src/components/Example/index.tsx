@@ -46,7 +46,6 @@ export const ExamplePure: FC<ExamplePureProps> = enhance<ExamplePureProps>(
           }
         }
       })()}
-      <p>{fibResult}</p>
     </div>
   )
 )(ExampleFallback)
