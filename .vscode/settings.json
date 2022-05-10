@@ -12,6 +12,7 @@
     "*.jsx": "javascriptreact",
     "*.tsx": "typescriptreact",
     "iosfwd": "cpp",
-    "string": "cpp"
+    "string": "cpp",
+    "algorithm": "cpp"
   },
 }
