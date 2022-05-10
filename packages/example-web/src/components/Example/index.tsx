@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { FC } from "react"
 import { enhance } from "../../utilities/essentials"
 import { ExampleFallback } from "./fallback"
-import fibWasmPromise from "@emscripten-cplusplus-webpack-sample/sample-wasm"
+import fibWasmPromise from "../../../../example-wasm"
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 export type ExampleImpureProps = {}

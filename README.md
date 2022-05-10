@@ -1,4 +1,4 @@
-# emscripten-cplusplus-webpack-sample
+# emscripten-cplusplus-webpack-example
 
 ## Initialize project
 ```

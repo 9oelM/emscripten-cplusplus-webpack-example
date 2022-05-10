@@ -1,9 +1,9 @@
 {
-  "name": "@emscripten-cplusplus-webpack-sample/sample-wasm",
+  "name": "@emscripten-cplusplus-webpack-example/example-wasm",
   "version": "1.0.0",
   "description": "",
   "repository": {
-    "url": "https://github.com/9oelm/emscripten-cplusplus-webpack-sample"
+    "url": "https://github.com/9oelm/emscripten-cplusplus-webpack-example"
   },
   "main": "index.js",
   "scripts": {

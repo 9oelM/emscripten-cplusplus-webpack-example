@@ -4,11 +4,11 @@ while getopts c: flag; do
     c)
         case "${OPTARG}" in
         build)
-            docker build . -t sample-wasm
+            docker build . -t example-wasm
             ;;
 
         run)
-            docker run -v $(pwd):/etc/sample-wasm sample-wasm
+            docker run -v $(pwd):/etc/example-wasm example-wasm
             ;;
 
         *)
