@@ -138,16 +138,6 @@ async function loadAndrunWasm() {
 
 Right. But to be able to do this, we need some more work from Webpack side.
 
-By now, if you simply just want to see the project up and running, run from project root: 
-
-```bash
-npm run dev -w=packages/example-web
-```
-
-Then you will be able to see this:
-
-![doc0.png](./doc0.png)
-
 ## Webpack configuration (everything done inside `packages/example-web`)
 
 Now, webpack natively supports importing wasm, but the problem is that the kind of wasm it supports is NOT the kind produced by emscripten. So what do we do?
@@ -199,7 +189,7 @@ And don't forget to include `@emscripten-cplusplus-webpack-example/example-wasm`
 
 ## `import` it and rock
 
-Now, just import it, `await` the promise and use it. Ah, and I won't explain Impure and Pure parts. It's just my thing. Anyway, this really gets it working.
+Now, just import it, `await` the promise and use it. Ah, and if you are curious about Pure and Impure parts, it's another huge topic... to be explained for effective React. I won't explain it here. Just look at how wasm gets imported and used.
 
 ```ts
 import React, { useEffect, useState } from "react"
@@ -255,7 +245,7 @@ export const ExamplePure: FC<ExamplePureProps> = enhance<ExamplePureProps>(
 )(ExampleFallback)
 ```
 
-IT WORKS!! (see the same pic again:)
+Then.. IT WORKS!!
 
 ![doc0.png](./doc0.png)
 
