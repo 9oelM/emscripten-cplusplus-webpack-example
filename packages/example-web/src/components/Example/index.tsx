@@ -36,6 +36,10 @@ export type ExamplePureProps = {
 export const ExamplePure: FC<ExamplePureProps> = enhance<ExamplePureProps>(
   ({ fibResult }) => (
     <div>
+      <h1>
+        Step-by-step guide on compiling C++ codes with Emscripten into wasm and
+        using it with Webpack + Typescript + React setup
+      </h1>
       {(() => {
         switch (fibResult) {
           case null: {
