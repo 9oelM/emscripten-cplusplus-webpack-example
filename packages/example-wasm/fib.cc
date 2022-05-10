@@ -1,4 +1,5 @@
 #include "add.h"
+#include "fib.h"
 
 // extern "C" : prevent function names from being mangled when compiled so that your JavaScript code can use the expected function name
 extern "C" {
