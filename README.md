@@ -6,7 +6,7 @@ https://9oelm.github.io/emscripten-cplusplus-webpack-example/
 
 ## More practical demo
 
-https://9oelm.github.io/risc-v-web-simulator: this project uses this repository as a template to complile more complicated set of cpp files into wasm, and then run it on the web.
+https://riscv.vercel.app: this project uses this repository as a template to complile more complicated set of cpp files into wasm, and then run it on the web.
 
 ## Rationale
 Ok. Why this repo? **_Using Emscripten on C++ to use WASM binary with Webpack + Typescript + React will NOT just work and things about this are very poorly documented sparsely across the web._** 
